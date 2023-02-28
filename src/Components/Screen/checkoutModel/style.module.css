@@ -1,0 +1,21 @@
+.customeModel {
+  background-color: rgb(44, 44, 44);
+  box-shadow: 1px 5px 10px rgb(0, 0, 0, 0.6);
+  position: absolute;
+  top: 50%;
+  width: 500px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+@media (max-width: 600px) {
+  .customeModel {
+    width: 370px;
+    top: 40%;
+    left: 9%;
+  }
+}
+.customeModel h2 {
+  margin-bottom: 10px;
+}
+.customeModel p {
+  padding: 10px 0px;
+}

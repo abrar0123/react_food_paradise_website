@@ -1,0 +1,75 @@
+.customContainer {
+  background-color: white;
+  position: absolute;
+  top: 25%;
+  color: black;
+  box-shadow: 2px 5px 7px rgb(0, 0, 0, 0.8);
+  z-index: 1;
+}
+.mainCartFlex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-right: 100px; */
+}
+.sub2CartFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.subCartFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subCartFlex button {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 1px 15px;
+  font-size: large;
+  border: 2px solid brown;
+  color: black;
+}
+.subCartFlex button:not(:last-child) {
+  margin-right: 5px;
+}
+.subCartFlex button:hover {
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s;
+  background-color: brown;
+}
+.subCartFlex button:active {
+  cursor: pointer;
+  background-color: rgb(106, 10, 10);
+}
+.hrstyle {
+  /* margin: 10px; */
+  padding: 10px 0px;
+}
+.hrstyle hr {
+  height: 2px;
+  background-color: rgb(158, 10, 10);
+}
+
+.btncontainer {
+  margin-top: 20px;
+  text-align: right;
+}
+.btncontainer h3{
+  /* display: inline; */
+  text-align: left;
+}
+
+.btncontainer .customBtn {
+  background-color: white;
+  color: black;
+  margin-right: 10px;
+}
+.btncontainer .customBtn:hover {
+  color: white;
+  background-color: rgb(229, 134, 134);
+}
